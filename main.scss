@@ -517,18 +517,18 @@ body {
         }*/
 
         .buttons {
-          //background: green;
-
+          margin-top: 2em;
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
           .get-started {
             padding: 0.6em 1em;
             border-radius: 32px;
             width: 131px;
-            height: 40px;
-            line-height: 24px;
             margin: 0 auto;
+            line-height: 24px;
             color: #364152;
             font-family: Poppins;
-            font-size: 16px;
+            font-size: 14px;
             font-weight: 500;
             line-height: 24px;
             text-align: center;
@@ -547,8 +547,9 @@ body {
             font-size: 14px;
             font-weight: 500;
             line-height: 16px;
-            margin-top: 1em;
             color: #364152;
+            margin: 0 auto;
+            margin-top: 1em;
 
             &:hover {
               color: #2686ca;
@@ -1521,6 +1522,10 @@ body {
           }
           .buttons {
             margin-top: 5em;
+            margin-top: 2em;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 576px;
 
             .get-started {
               padding: 0.6em 1.5em;
@@ -1529,12 +1534,13 @@ body {
               font-family: Poppins;
               text-align: center;
               border-radius: 32px;
-              width: 131px;
-              height: 40px;
+              width: 141px;
+              height: 48px;
+              margin: 0 auto;
               line-height: 24px;
               border: 1px solid #364152;
               color: #364152;
-              margin-right: 3em;
+              margin-right: 0;
 
               &:hover {
                 background: #2686ca;
@@ -2541,7 +2547,8 @@ body {
                 color: #697586;
               }
             }
-          }
+          } /*
+
           .buttons {
             margin-top: 3em;
             .get-started {
@@ -2580,6 +2587,102 @@ body {
                 height: 10px;
                 margin-left: 0.5em;
               }
+            }
+          }*/
+
+          /*
+          .buttons {
+            margin-top: 5em;
+            margin-top: 2em;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 576px;
+
+            .get-started {
+              padding: 0.6em 1.5em;
+              font-weight: 500;
+              font-size: 15px;
+              font-family: Poppins;
+              text-align: center;
+              border-radius: 32px;
+              width: 141px;
+              height: 48px;
+              margin: 0 auto;
+              line-height: 24px;
+              border: 1px solid #364152;
+              color: #364152;
+
+              &:hover {
+                background: #2686ca;
+                color: #fff;
+                border: none;
+              }
+            }
+
+            .learn-more {
+              font-family: Poppins;
+              font-size: 14px;
+              font-weight: 500;
+              line-height: 10px;
+              color: #364152;
+              margin-right: 39em;
+              margin-left: 5em;
+              width: 92px;
+
+              &:hover {
+                color: #2686ca;
+                font-size: 18px;
+              }
+
+              img {
+                width: 10px;
+                height: 10px;
+                margin-left: 0.5em;
+              }
+            }
+          }*/
+        }
+        .buttons {
+          margin-top: 3em;
+          width: 576px;
+          display: flex;
+          .get-started {
+            padding: 0.6em 1.5em;
+            font-weight: 500;
+            font-size: 15px;
+            font-family: Poppins;
+            text-align: center;
+            border-radius: 32px;
+            width: 131px;
+            height: 40px;
+            line-height: 24px;
+            border: 1px solid #364152;
+            color: #364152;
+            margin-right: 3em;
+
+            &:hover {
+              background: #2686ca;
+              color: #fff;
+              border: none;
+            }
+          }
+
+          .learn-more {
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 16px;
+            color: #364152;
+
+            &:hover {
+              color: #2686ca;
+              font-size: 18px;
+            }
+
+            img {
+              width: 12px;
+              height: 10px;
+              margin-left: 0.5em;
             }
           }
         }
