@@ -448,12 +448,6 @@ body .integration .integration-container .text-container .boxes .first-box p {
   line-height: 21px;
   color: #697586;
 }
-body .integration .integration-container .text-container .buttons {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-top: 2em;
-}
 body .integration .integration-container .text-container .buttons .get-started {
   padding: 0.6em 1em;
   border-radius: 32px;
@@ -803,12 +797,6 @@ body .advert p {
   color: #b8b8b8;
   margin-top: 1.3em;
   margin-bottom: 5em;
-}
-body .advert .buttons {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-top: 2em;
 }
 body .advert .buttons .get-started {
   padding: 0.6em 1.5em;
@@ -2001,6 +1989,9 @@ body footer .footer-socials a:hover {
     margin-top: 1.5em;
     display: flex;
     gap: 5em;
+    gap: 5em;
+    width: 546px;
+    margin-top: 3em;
   }
   body #features .text-container .checked-features ul {
     width: 194px;
