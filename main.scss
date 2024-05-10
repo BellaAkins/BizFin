@@ -38,6 +38,7 @@ body {
     #ffffff 55%,
     #eef2f6 59%
   );
+
   header {
     display: flex;
     justify-content: space-around;
@@ -87,16 +88,18 @@ body {
     }
   }
   #hero {
+    //background: blue;
     margin-top: 4em;
     font-family: poppins;
     h1 {
       margin-top: 2.3em;
-      font-size: 38px;
+      font-size: 35px;
       font-weight: 600;
       line-height: 57.25px;
       width: 340px;
       margin: 0 auto;
       text-align: center;
+      //display: none;
 
       span {
         color: #2686ca;
@@ -112,9 +115,11 @@ body {
       text-align: center;
       margin-top: 2em;
       padding: 0.5em;
+      //display: none;
     }
     img {
       width: 100%;
+      // display: none;
     }
 
     .hero-ctas {
@@ -122,6 +127,7 @@ body {
       display: flex;
       justify-content: center;
       gap: 3em;
+      display: none;
 
       a {
         padding: 0.6em 0.8em;
@@ -185,18 +191,19 @@ body {
 
       h3 {
         font-family: Manrope;
-        font-size: 40px;
+        font-size: 34px;
         font-weight: 700;
         line-height: 48px;
         text-align: left;
-        width: 345px;
+        width: 305px;
         //height: 96px;
         color: #202939;
         margin-bottom: 0.6em;
         margin-top: 0.4em;
+        //display: none;
       }
       p {
-        width: 320px;
+        width: 300px;
         height: 156px;
         font-family: Poppins;
         font-size: 16px;
@@ -204,15 +211,17 @@ body {
         line-height: 24px;
         text-align: left;
         color: #697586;
+        //display: none;
       }
       .checked-features {
-        margin-top: 1.5em;
         display: flex;
         gap: 5em;
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 3em;
+
         //CHECKMARK BEFORE TEXt
         ul {
-          width: 100px;
-          margin-left: 3em;
           li {
             font-family: Poppins;
             font-size: 1.1rem;
@@ -355,7 +364,6 @@ body {
     }
   }
   .integration {
-    //margin-top: 6em;
     background: #f6f6f6;
 
     .integration-container {
@@ -792,8 +800,7 @@ body {
       margin-top: 3em;
 
       .first {
-        background-color: yellow;
-        width: 400px;
+        width: 450px;
         height: 335px;
         border-radius: 16px;
         border: 1px solid #eef2f6;
@@ -804,10 +811,11 @@ body {
 
         p {
           font-family: Poppins;
-          font-size: 18px;
-          font-weight: 400;
-          line-height: 28px;
+          font-size: 14px;
+          font-weight: 300;
+          line-height: 24px;
           text-align: left;
+          width: 230px;
           color: #697586;
           margin-top: 1.4em;
         }
@@ -919,6 +927,8 @@ body {
   }
   footer {
     padding: 4em;
+    background: #eef2f6;
+
     .footer-container {
       display: flex;
       flex-direction: column;
@@ -1072,6 +1082,81 @@ body {
         ul {
           a {
             font-size: 18px;
+          }
+        }
+      }
+    }
+    #hero {
+      margin-top: 4em;
+      font-family: poppins;
+      h1 {
+        margin-top: 2.3em;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 57.25px;
+        width: 640px;
+        margin: 0 auto;
+        text-align: center;
+
+        span {
+          color: #2686ca;
+        }
+      }
+      p {
+        font-family: poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #697586;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 2em;
+        padding: 0.5em;
+        //display: none;
+      }
+      img {
+        width: 100%;
+        // display: none;
+      }
+
+      .hero-ctas {
+        margin-top: 3em;
+        display: flex;
+        justify-content: center;
+        gap: 3em;
+        display: none;
+
+        a {
+          padding: 0.6em 0.8em;
+          font-weight: 500;
+          line-height: 24px;
+          text-align: center;
+          border-radius: 32px;
+          width: 131px;
+          height: 40px;
+          font-family: Poppins;
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 24px;
+          text-align: center;
+        }
+
+        .get-started {
+          background: #79c0f2;
+          border: 1px solid #2686ca;
+          color: #ffffff;
+
+          &:hover {
+            background: #2686ca;
+          }
+        }
+
+        .learn-more {
+          background: #ffffff;
+          color: #364152;
+
+          &:hover {
+            border: 1px solid #2686ca;
           }
         }
       }
@@ -1731,10 +1816,11 @@ body {
 
           p {
             font-family: Poppins;
-            font-size: 18px;
-            font-weight: 400;
-            line-height: 28px;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 24px;
             text-align: left;
+            width: 325px;
             color: #697586;
             margin-top: 1.4em;
           }
