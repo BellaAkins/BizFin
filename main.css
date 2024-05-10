@@ -448,16 +448,20 @@ body .integration .integration-container .text-container .boxes .first-box p {
   line-height: 21px;
   color: #697586;
 }
+body .integration .integration-container .text-container .buttons {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
 body .integration .integration-container .text-container .buttons .get-started {
   padding: 0.6em 1em;
   border-radius: 32px;
   width: 131px;
-  height: 40px;
-  line-height: 24px;
   margin: 0 auto;
+  line-height: 24px;
   color: #364152;
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 24px;
   text-align: center;
@@ -474,8 +478,9 @@ body .integration .integration-container .text-container .buttons .learn-more {
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
-  margin-top: 1em;
   color: #364152;
+  margin: 0 auto;
+  margin-top: 1em;
 }
 body .integration .integration-container .text-container .buttons .learn-more:hover {
   color: #2686ca;
@@ -1328,6 +1333,10 @@ body footer .footer-socials a:hover {
   }
   body .integration .integration-container .text-container .buttons {
     margin-top: 5em;
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 576px;
   }
   body .integration .integration-container .text-container .buttons .get-started {
     padding: 0.6em 1.5em;
@@ -1336,12 +1345,13 @@ body footer .footer-socials a:hover {
     font-family: Poppins;
     text-align: center;
     border-radius: 32px;
-    width: 131px;
-    height: 40px;
+    width: 141px;
+    height: 48px;
+    margin: 0 auto;
     line-height: 24px;
     border: 1px solid #364152;
     color: #364152;
-    margin-right: 3em;
+    margin-right: 0;
   }
   body .integration .integration-container .text-container .buttons .get-started:hover {
     background: #2686ca;
@@ -2139,6 +2149,99 @@ body footer .footer-socials a:hover {
   body .integration .integration-container .text-container {
     width: 70%;
     margin-top: 8em;
+    /*
+
+    .buttons {
+      margin-top: 3em;
+      .get-started {
+        padding: 0.6em 1.5em;
+        font-weight: 500;
+        font-size: 15px;
+        font-family: Poppins;
+        text-align: center;
+        border-radius: 32px;
+        line-height: 24px;
+        border: 1px solid #364152;
+        color: #364152;
+        margin-right: 1em;
+
+        &:hover {
+          background: #2686ca;
+          color: #fff;
+          border: none;
+        }
+      }
+
+      .learn-more {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        color: #364152;
+
+        &:hover {
+          color: #2686ca;
+          font-size: 18px;
+        }
+
+        img {
+          width: 12px;
+          height: 10px;
+          margin-left: 0.5em;
+        }
+      }
+    }*/
+    /*
+    .buttons {
+      margin-top: 5em;
+      margin-top: 2em;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      width: 576px;
+
+      .get-started {
+        padding: 0.6em 1.5em;
+        font-weight: 500;
+        font-size: 15px;
+        font-family: Poppins;
+        text-align: center;
+        border-radius: 32px;
+        width: 141px;
+        height: 48px;
+        margin: 0 auto;
+        line-height: 24px;
+        border: 1px solid #364152;
+        color: #364152;
+
+        &:hover {
+          background: #2686ca;
+          color: #fff;
+          border: none;
+        }
+      }
+
+      .learn-more {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 10px;
+        color: #364152;
+        margin-right: 39em;
+        margin-left: 5em;
+        width: 92px;
+
+        &:hover {
+          color: #2686ca;
+          font-size: 18px;
+        }
+
+        img {
+          width: 10px;
+          height: 10px;
+          margin-left: 0.5em;
+        }
+      }
+    }*/
   }
   body .integration .integration-container .text-container h5 {
     font-family: Poppins;
@@ -2225,38 +2328,42 @@ body footer .footer-socials a:hover {
     line-height: 21px;
     color: #697586;
   }
-  body .integration .integration-container .text-container .buttons {
+  body .integration .integration-container .buttons {
     margin-top: 3em;
+    width: 576px;
+    display: flex;
   }
-  body .integration .integration-container .text-container .buttons .get-started {
+  body .integration .integration-container .buttons .get-started {
     padding: 0.6em 1.5em;
     font-weight: 500;
     font-size: 15px;
     font-family: Poppins;
     text-align: center;
     border-radius: 32px;
+    width: 131px;
+    height: 40px;
     line-height: 24px;
     border: 1px solid #364152;
     color: #364152;
-    margin-right: 1em;
+    margin-right: 3em;
   }
-  body .integration .integration-container .text-container .buttons .get-started:hover {
+  body .integration .integration-container .buttons .get-started:hover {
     background: #2686ca;
     color: #fff;
     border: none;
   }
-  body .integration .integration-container .text-container .buttons .learn-more {
+  body .integration .integration-container .buttons .learn-more {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 500;
     line-height: 16px;
     color: #364152;
   }
-  body .integration .integration-container .text-container .buttons .learn-more:hover {
+  body .integration .integration-container .buttons .learn-more:hover {
     color: #2686ca;
     font-size: 18px;
   }
-  body .integration .integration-container .text-container .buttons .learn-more img {
+  body .integration .integration-container .buttons .learn-more img {
     width: 12px;
     height: 10px;
     margin-left: 0.5em;
