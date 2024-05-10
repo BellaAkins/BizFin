@@ -766,7 +766,7 @@ body .advert .buttons .get-started {
   line-height: 24px;
   background: #ffffff;
   color: #364152;
-  margin-right: 0.8em;
+  margin-right: 0.5em;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 500;
@@ -784,7 +784,7 @@ body .advert .buttons .learn-more {
   font-weight: 500;
   line-height: 16px;
   color: #ffffff;
-  margin-right: 2em;
+  margin-right: 1em;
 }
 body .advert .buttons .learn-more:hover {
   color: #2686ca;
