@@ -518,17 +518,18 @@ body {
 
         .buttons {
           //background: green;
+          display: flex;
+          flex-direction: column;
           text-align: center;
           margin-top: 2em;
           .get-started {
-            padding: 0.7em;
+            padding: 0.6em 1em;
             border-radius: 32px;
-            width: 80px;
-            //height: 40px;
+            width: 131px;
+            height: 40px;
             line-height: 24px;
-            //background: #ffffff;
+            margin: 0 auto;
             color: #364152;
-            margin-right: 0.5em;
             font-family: Poppins;
             font-size: 16px;
             font-weight: 500;
@@ -549,7 +550,7 @@ body {
             font-size: 14px;
             font-weight: 500;
             line-height: 16px;
-            margin-right: 1em;
+            margin-top: 1em;
             color: #364152;
 
             &:hover {
@@ -929,21 +930,26 @@ body {
     }
 
     .buttons {
+      display: flex;
+      flex-direction: column;
       text-align: center;
+      margin-top: 2em;
       .get-started {
         padding: 0.6em 1.5em;
         border-radius: 32px;
-        width: 100px;
-        //height: 40px;
+        width: 150px;
+        height: 40px;
         line-height: 24px;
+        margin: 0 auto;
         background: #ffffff;
         color: #364152;
-        margin-right: 0.5em;
         font-family: Poppins;
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
         text-align: center;
+        border: 1px solid #364152;
+        border-radius: 32px;
 
         &:hover {
           background: #2686ca;
@@ -953,6 +959,7 @@ body {
       }
 
       .learn-more {
+        margin-top: 1em;
         font-family: Poppins;
         font-size: 16px;
         font-weight: 500;
@@ -961,7 +968,6 @@ body {
         margin-right: 1em;
         &:hover {
           color: #2686ca;
-          font-size: 14px;
         }
 
         img {
@@ -2104,6 +2110,10 @@ body {
               text-align: left;
               color: #697586;
               padding: 2em;
+
+              &:hover {
+                background: none;
+              }
 
               &::after {
                 content: "";
