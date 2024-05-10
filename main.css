@@ -25,7 +25,14 @@
 }
 
 body {
-  background: linear-gradient(103.51deg, #eef2f6 25.5%, #ffffff 39%, #eef2f6 49%, #ffffff 55%, #eef2f6 59%);
+  background: linear-gradient(
+    103.51deg,
+    #eef2f6 25.5%,
+    #ffffff 39%,
+    #eef2f6 49%,
+    #ffffff 55%,
+    #eef2f6 59%
+  );
 }
 body header {
   display: flex;
@@ -321,6 +328,47 @@ body .integration .integration-container .image-container img {
 }
 body .integration .integration-container .text-container {
   margin-top: 8em;
+  /*
+  .buttons {
+    margin-top: 5em;
+    .get-started {
+      padding: 0.6em 1.5em;
+      font-weight: 500;
+      font-size: 15px;
+      font-family: Poppins;
+      text-align: center;
+      border-radius: 32px;
+      line-height: 24px;
+      border: 1px solid #364152;
+      color: #364152;
+      margin-right: 1em;
+
+      &:hover {
+        background: #2686ca;
+        color: #fff;
+        border: none;
+      }
+    }
+
+    .learn-more {
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 16px;
+      color: #364152;
+
+      &:hover {
+        color: #2686ca;
+        font-size: 18px;
+      }
+
+      img {
+        width: 12px;
+        height: 10px;
+        margin-left: 0.5em;
+      }
+    }
+  }*/
 }
 body .integration .integration-container .text-container h5 {
   font-family: Poppins;
@@ -382,7 +430,14 @@ body .integration .integration-container .text-container .boxes .first-box h3 {
   font-weight: 700;
   color: #202939;
 }
-body .integration .integration-container .text-container .boxes .first-box h3 p {
+body
+  .integration
+  .integration-container
+  .text-container
+  .boxes
+  .first-box
+  h3
+  p {
   background: rgb(209, 230, 244);
   border-radius: 15px;
   width: 20%;
@@ -394,7 +449,14 @@ body .integration .integration-container .text-container .boxes .first-box h3 p 
   padding: 0.4em;
   color: #2686ca;
 }
-body .integration .integration-container .text-container .boxes .first-box h3 img {
+body
+  .integration
+  .integration-container
+  .text-container
+  .boxes
+  .first-box
+  h3
+  img {
   width: 15px;
   margin-right: 0.3em;
 }
@@ -408,40 +470,61 @@ body .integration .integration-container .text-container .boxes .first-box p {
   color: #697586;
 }
 body .integration .integration-container .text-container .buttons {
-  margin-top: 5em;
+  text-align: center;
+  margin-top: 2em;
 }
 body .integration .integration-container .text-container .buttons .get-started {
-  padding: 0.6em 1.5em;
-  font-weight: 500;
-  font-size: 15px;
-  font-family: Poppins;
-  text-align: center;
+  padding: 0.7em;
   border-radius: 32px;
+  width: 80px;
   line-height: 24px;
-  border: 1px solid #364152;
   color: #364152;
-  margin-right: 1em;
+  margin-right: 0.5em;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  border: 1px solid #364152;
+  border-radius: 32px;
 }
-body .integration .integration-container .text-container .buttons .get-started:hover {
+body
+  .integration
+  .integration-container
+  .text-container
+  .buttons
+  .get-started:hover {
   background: #2686ca;
   color: #fff;
   border: none;
 }
 body .integration .integration-container .text-container .buttons .learn-more {
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 16px;
+  margin-right: 1em;
   color: #364152;
 }
-body .integration .integration-container .text-container .buttons .learn-more:hover {
+body
+  .integration
+  .integration-container
+  .text-container
+  .buttons
+  .learn-more:hover {
   color: #2686ca;
-  font-size: 18px;
+  font-size: 14px;
 }
-body .integration .integration-container .text-container .buttons .learn-more img {
-  width: 12px;
-  height: 10px;
-  margin-left: 0.5em;
+body
+  .integration
+  .integration-container
+  .text-container
+  .buttons
+  .learn-more
+  img {
+  margin-right: 0.2em;
+  width: 11px;
+  height: 11px;
 }
 body .streamline {
   background: #ffffff;
@@ -490,7 +573,13 @@ body .streamline .streamline-container .text-container p {
 body .streamline .streamline-container .text-container .first-text ul {
   border-bottom: 1px solid #e3e8ef;
 }
-body .streamline .streamline-container .text-container .first-text ul li::before {
+body
+  .streamline
+  .streamline-container
+  .text-container
+  .first-text
+  ul
+  li::before {
   content: "";
   left: -2em;
   position: absolute;
@@ -504,7 +593,13 @@ body .streamline .streamline-container .text-container .first-text ul li::before
 body .streamline .streamline-container .text-container .accelerate ul {
   border-bottom: 1px solid #e3e8ef;
 }
-body .streamline .streamline-container .text-container .accelerate ul li::before {
+body
+  .streamline
+  .streamline-container
+  .text-container
+  .accelerate
+  ul
+  li::before {
   background: url(images/accelerate.png);
   content: "";
   left: -2em;
@@ -727,8 +822,8 @@ body .testimonial .testimonial-box .first .profile .profile-title span {
 body .testimonial .testimonial-box.dragging .first {
   cursor: grab;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 body .advert {
   background: #0e1624;
@@ -756,7 +851,6 @@ body .advert p {
   margin-bottom: 5em;
 }
 body .advert .buttons {
-  background: red;
   text-align: center;
 }
 body .advert .buttons .get-started {
@@ -865,7 +959,12 @@ body footer .footer-links-container .footer-links .input-box input {
   border: 1px solid #eef2f6;
   border-radius: 12px;
 }
-body footer .footer-links-container .footer-links .input-box input::-moz-placeholder {
+body
+  footer
+  .footer-links-container
+  .footer-links
+  .input-box
+  input::-moz-placeholder {
   font-family: Poppins;
   font-size: 14px;
   font-weight: 400;
@@ -873,7 +972,12 @@ body footer .footer-links-container .footer-links .input-box input::-moz-placeho
   text-align: left;
   color: #999999;
 }
-body footer .footer-links-container .footer-links .input-box input::placeholder {
+body
+  footer
+  .footer-links-container
+  .footer-links
+  .input-box
+  input::placeholder {
   font-family: Poppins;
   font-size: 14px;
   font-weight: 400;
@@ -1249,7 +1353,13 @@ body footer .footer-socials a:hover {
     box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.031372549);
     text-align: center;
   }
-  body .integration .integration-container .text-container .boxes .first-box h3 {
+  body
+    .integration
+    .integration-container
+    .text-container
+    .boxes
+    .first-box
+    h3 {
     display: flex;
     justify-content: space-around;
     font-size: 26px;
@@ -1259,7 +1369,14 @@ body footer .footer-socials a:hover {
     font-weight: 700;
     color: #202939;
   }
-  body .integration .integration-container .text-container .boxes .first-box h3 p {
+  body
+    .integration
+    .integration-container
+    .text-container
+    .boxes
+    .first-box
+    h3
+    p {
     background: rgb(209, 230, 244);
     border-radius: 15px;
     width: 20%;
@@ -1271,7 +1388,14 @@ body footer .footer-socials a:hover {
     padding: 0.4em;
     color: #2686ca;
   }
-  body .integration .integration-container .text-container .boxes .first-box h3 img {
+  body
+    .integration
+    .integration-container
+    .text-container
+    .boxes
+    .first-box
+    h3
+    img {
     width: 15px;
     margin-right: 0.3em;
   }
@@ -1287,7 +1411,12 @@ body footer .footer-socials a:hover {
   body .integration .integration-container .text-container .buttons {
     margin-top: 5em;
   }
-  body .integration .integration-container .text-container .buttons .get-started {
+  body
+    .integration
+    .integration-container
+    .text-container
+    .buttons
+    .get-started {
     padding: 0.6em 1.5em;
     font-weight: 500;
     font-size: 15px;
@@ -1301,23 +1430,44 @@ body footer .footer-socials a:hover {
     color: #364152;
     margin-right: 3em;
   }
-  body .integration .integration-container .text-container .buttons .get-started:hover {
+  body
+    .integration
+    .integration-container
+    .text-container
+    .buttons
+    .get-started:hover {
     background: #2686ca;
     color: #fff;
     border: none;
   }
-  body .integration .integration-container .text-container .buttons .learn-more {
+  body
+    .integration
+    .integration-container
+    .text-container
+    .buttons
+    .learn-more {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 500;
     line-height: 16px;
     color: #364152;
   }
-  body .integration .integration-container .text-container .buttons .learn-more:hover {
+  body
+    .integration
+    .integration-container
+    .text-container
+    .buttons
+    .learn-more:hover {
     color: #2686ca;
     font-size: 18px;
   }
-  body .integration .integration-container .text-container .buttons .learn-more img {
+  body
+    .integration
+    .integration-container
+    .text-container
+    .buttons
+    .learn-more
+    img {
     width: 12px;
     height: 10px;
     margin-left: 0.5em;
@@ -1371,7 +1521,13 @@ body footer .footer-socials a:hover {
   body .streamline .streamline-container .text-container .first-text ul {
     border-bottom: 1px solid #e3e8ef;
   }
-  body .streamline .streamline-container .text-container .first-text ul li::before {
+  body
+    .streamline
+    .streamline-container
+    .text-container
+    .first-text
+    ul
+    li::before {
     content: "";
     left: -2em;
     position: absolute;
@@ -1385,7 +1541,13 @@ body footer .footer-socials a:hover {
   body .streamline .streamline-container .text-container .accelerate ul {
     border-bottom: 1px solid #e3e8ef;
   }
-  body .streamline .streamline-container .text-container .accelerate ul li::before {
+  body
+    .streamline
+    .streamline-container
+    .text-container
+    .accelerate
+    ul
+    li::before {
     background: url(images/accelerate.png);
     content: "";
     left: -2em;
@@ -1609,8 +1771,8 @@ body footer .footer-socials a:hover {
   body .testimonial .testimonial-box.dragging .first {
     cursor: grab;
     -webkit-user-select: none;
-       -moz-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    user-select: none;
   }
   body footer {
     padding: 1.5em;
@@ -1681,7 +1843,12 @@ body footer .footer-socials a:hover {
     border: 1px solid #eef2f6;
     border-radius: 12px;
   }
-  body footer .footer-links-container .footer-links .input-box input::-moz-placeholder {
+  body
+    footer
+    .footer-links-container
+    .footer-links
+    .input-box
+    input::-moz-placeholder {
     font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
@@ -1689,7 +1856,12 @@ body footer .footer-socials a:hover {
     text-align: left;
     color: #999999;
   }
-  body footer .footer-links-container .footer-links .input-box input::placeholder {
+  body
+    footer
+    .footer-links-container
+    .footer-links
+    .input-box
+    input::placeholder {
     font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
@@ -1756,7 +1928,14 @@ body footer .footer-socials a:hover {
     display: none;
   }
   body {
-    background: linear-gradient(103.51deg, #eef2f6 25.5%, #ffffff 39%, #eef2f6 49%, #ffffff 55%, #eef2f6 59%);
+    background: linear-gradient(
+      103.51deg,
+      #eef2f6 25.5%,
+      #ffffff 39%,
+      #eef2f6 49%,
+      #ffffff 55%,
+      #eef2f6 59%
+    );
   }
   body header {
     display: flex;
@@ -2142,7 +2321,13 @@ body footer .footer-socials a:hover {
     box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.031372549);
     text-align: center;
   }
-  body .integration .integration-container .text-container .boxes .first-box h3 {
+  body
+    .integration
+    .integration-container
+    .text-container
+    .boxes
+    .first-box
+    h3 {
     display: flex;
     justify-content: space-around;
     font-size: 26px;
@@ -2152,7 +2337,14 @@ body footer .footer-socials a:hover {
     font-weight: 700;
     color: #202939;
   }
-  body .integration .integration-container .text-container .boxes .first-box h3 p {
+  body
+    .integration
+    .integration-container
+    .text-container
+    .boxes
+    .first-box
+    h3
+    p {
     background: rgb(209, 230, 244);
     border-radius: 15px;
     width: 20%;
@@ -2164,7 +2356,14 @@ body footer .footer-socials a:hover {
     padding: 0.4em;
     color: #2686ca;
   }
-  body .integration .integration-container .text-container .boxes .first-box h3 img {
+  body
+    .integration
+    .integration-container
+    .text-container
+    .boxes
+    .first-box
+    h3
+    img {
     width: 15px;
     margin-right: 0.3em;
   }
@@ -2180,7 +2379,12 @@ body footer .footer-socials a:hover {
   body .integration .integration-container .text-container .buttons {
     margin-top: 3em;
   }
-  body .integration .integration-container .text-container .buttons .get-started {
+  body
+    .integration
+    .integration-container
+    .text-container
+    .buttons
+    .get-started {
     padding: 0.6em 1.5em;
     font-weight: 500;
     font-size: 15px;
@@ -2192,23 +2396,44 @@ body footer .footer-socials a:hover {
     color: #364152;
     margin-right: 1em;
   }
-  body .integration .integration-container .text-container .buttons .get-started:hover {
+  body
+    .integration
+    .integration-container
+    .text-container
+    .buttons
+    .get-started:hover {
     background: #2686ca;
     color: #fff;
     border: none;
   }
-  body .integration .integration-container .text-container .buttons .learn-more {
+  body
+    .integration
+    .integration-container
+    .text-container
+    .buttons
+    .learn-more {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 500;
     line-height: 16px;
     color: #364152;
   }
-  body .integration .integration-container .text-container .buttons .learn-more:hover {
+  body
+    .integration
+    .integration-container
+    .text-container
+    .buttons
+    .learn-more:hover {
     color: #2686ca;
     font-size: 18px;
   }
-  body .integration .integration-container .text-container .buttons .learn-more img {
+  body
+    .integration
+    .integration-container
+    .text-container
+    .buttons
+    .learn-more
+    img {
     width: 12px;
     height: 10px;
     margin-left: 0.5em;
@@ -2261,7 +2486,13 @@ body footer .footer-socials a:hover {
   body .streamline .streamline-container .text-container .first-text ul {
     border-bottom: 1px solid #e3e8ef;
   }
-  body .streamline .streamline-container .text-container .first-text ul li::before {
+  body
+    .streamline
+    .streamline-container
+    .text-container
+    .first-text
+    ul
+    li::before {
     content: "";
     left: -2em;
     position: absolute;
@@ -2275,7 +2506,13 @@ body footer .footer-socials a:hover {
   body .streamline .streamline-container .text-container .accelerate ul {
     border-bottom: 1px solid #e3e8ef;
   }
-  body .streamline .streamline-container .text-container .accelerate ul li::before {
+  body
+    .streamline
+    .streamline-container
+    .text-container
+    .accelerate
+    ul
+    li::before {
     background: url(images/accelerate.png);
     content: "";
     left: -2em;
@@ -2500,8 +2737,8 @@ body footer .footer-socials a:hover {
   body .testimonial .testimonial-box.dragging .first {
     cursor: grab;
     -webkit-user-select: none;
-       -moz-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    user-select: none;
   }
   body .advert {
     background: #0e1624;
@@ -2637,7 +2874,11 @@ body footer .footer-socials a:hover {
     border: 1px solid #eef2f6;
     border-radius: 12px;
   }
-  footer .footer-links-container .footer-links .input-box input::-moz-placeholder {
+  footer
+    .footer-links-container
+    .footer-links
+    .input-box
+    input::-moz-placeholder {
     font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
@@ -2707,10 +2948,10 @@ body footer .footer-socials a:hover {
 @keyframes Bellaintroload {
   from {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
   to {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
