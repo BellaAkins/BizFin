@@ -445,6 +445,7 @@ body .integration .integration-container .text-container .buttons .learn-more im
 }
 body .streamline {
   background: #ffffff;
+  background: red;
 }
 body .streamline .streamline-container {
   padding: 6em;
@@ -732,7 +733,7 @@ body .testimonial .testimonial-box.dragging .first {
 }
 body .advert {
   background: #0e1624;
-  padding: 5em 6em;
+  padding: 5em;
 }
 body .advert h3 {
   font-family: Manrope;
@@ -784,14 +785,14 @@ body .advert .buttons .learn-more {
   font-weight: 500;
   line-height: 16px;
   color: #ffffff;
-  margin-right: 3em;
+  margin-right: 2em;
 }
 body .advert .buttons .learn-more:hover {
   color: #2686ca;
-  font-size: 18px;
+  font-size: 16px;
 }
 body .advert .buttons .learn-more img {
-  margin-right: 0.5em;
+  margin-right: 0.2em;
   width: 12px;
   height: 12px;
 }
