@@ -881,14 +881,12 @@ body {
 
     .buttons {
       background: red;
-      width: 400px;
-      margin: 0 auto;
       text-align: center;
       .get-started {
         padding: 0.6em 1.5em;
         border-radius: 32px;
-        width: 120px;
-        height: 40px;
+        width: 100px;
+        //height: 40px;
         line-height: 24px;
         background: #ffffff;
         color: #364152;
@@ -915,13 +913,13 @@ body {
         margin-right: 1em;
         &:hover {
           color: #2686ca;
-          font-size: 16px;
+          font-size: 14px;
         }
 
         img {
           margin-right: 0.2em;
-          width: 12px;
-          height: 12px;
+          width: 11px;
+          height: 11px;
         }
       }
     }
