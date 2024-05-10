@@ -926,51 +926,6 @@ body {
       margin-top: 1.3em;
       margin-bottom: 5em;
     }
-    /*
-    .buttons {
-      .get-started {
-        padding: 0.6em 1.5em;
-        border-radius: 32px;
-        width: 150px;
-        height: 40px;
-        line-height: 24px;
-        margin: 0 auto;
-        background: #ffffff;
-        color: #364152;
-        font-family: Poppins;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-        text-align: center;
-        border: 1px solid #364152;
-        border-radius: 32px;
-
-        &:hover {
-          background: #2686ca;
-          color: #fff;
-          border: none;
-        }
-      }
-
-      .learn-more {
-        margin-top: 1em;
-        font-family: Poppins;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 16px;
-        color: #ffffff;
-        margin-right: 1em;
-        &:hover {
-          color: #2686ca;
-        }
-
-        img {
-          margin-right: 0.2em;
-          width: 11px;
-          height: 11px;
-        }
-      }
-    }*/
 
     .buttons {
       margin-top: 2em;
@@ -982,6 +937,7 @@ body {
         width: 131px;
         margin: 0 auto;
         line-height: 24px;
+        background: #ffffff;
         color: #364152;
         font-family: Poppins;
         font-size: 14px;
@@ -1003,7 +959,8 @@ body {
         font-size: 14px;
         font-weight: 500;
         line-height: 16px;
-        color: #364152;
+        color: #ffffff;
+
         margin: 0 auto;
         margin-top: 1em;
 
@@ -1304,9 +1261,11 @@ body {
           color: #697586;
         }
         .checked-features {
-          margin-top: 1.5em;
           display: flex;
           gap: 5em;
+          width: 546px;
+          margin-top: 1.5em;
+
           //CHECKMARK BEFORE TEXt
           ul {
             width: 100px;
@@ -2496,7 +2455,6 @@ body {
           margin-top: 1.5em;
           display: flex;
           gap: 5em;
-          gap: 5em;
           width: 546px;
           margin-top: 3em;
           //CHECKMARK BEFORE TEXt
@@ -3249,7 +3207,7 @@ body {
       }
 
       p {
-        width: 273px;
+        width: 745px;
         margin: 0 auto;
         height: 54px;
         font-family: Poppins;
@@ -3259,7 +3217,7 @@ body {
         text-align: center;
         color: #b8b8b8;
         margin-top: 1.3em;
-        margin-bottom: 5em;
+        margin-bottom: 1.6em;
       }
 
       .buttons {
