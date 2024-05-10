@@ -520,6 +520,7 @@ body {
   }
   .streamline {
     background: #ffffff;
+    background: red;
     .streamline-container {
       padding: 6em;
       display: flex;
@@ -855,8 +856,7 @@ body {
   }
   .advert {
     background: #0e1624;
-
-    padding: 5em 6em;
+    padding: 5em;
     h3 {
       font-family: Manrope;
       font-size: 40px;
@@ -910,15 +910,14 @@ body {
         font-weight: 500;
         line-height: 16px;
         color: #ffffff;
-        margin-right: 3em;
-
+        margin-right: 2em;
         &:hover {
           color: #2686ca;
-          font-size: 18px;
+          font-size: 16px;
         }
 
         img {
-          margin-right: 0.5em;
+          margin-right: 0.2em;
           width: 12px;
           height: 12px;
         }
@@ -1521,7 +1520,6 @@ body {
     }
     .streamline {
       background: #ffffff;
-      // display: none;
       .streamline-container {
         padding: 6em;
         display: flex;
